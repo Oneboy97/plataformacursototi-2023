@@ -1,0 +1,13 @@
+.containerCard {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    justify-items: center;
+}
+
+@media screen and (min-width: 769px) {
+    .containerCard {
+        grid-template-columns: 2fr auto;
+        gap: 3rem;
+    }
+}

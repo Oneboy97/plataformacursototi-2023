@@ -1,0 +1,38 @@
+footer {
+    background: var(--orange);
+    margin: 1rem auto;
+    padding: .25rem;
+    font-size: 87.5%;
+}
+
+footer span {
+    font-size: 70%;
+    color: var(--gray-1);
+}
+
+footer a{
+    padding: 0 1rem;
+}
+
+.containerFooter{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: .25rem;
+}
+
+@media screen and (min-width: 769px) {
+
+    .html,
+    footer, footer span {
+        font-size: 100%;
+    }
+    footer {
+        height: 3.938rem;
+    }
+    .containerFooter{
+        display: flex;
+        justify-content: space-between;
+        padding-top: .75rem;
+    }
+}
